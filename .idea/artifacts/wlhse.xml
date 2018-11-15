@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="wlhse">
+    <output-path>C:/code</output-path>
+    <root id="archive" name="wlhse_war.war">
+      <element id="artifact" artifact-name="wlhse:war exploded" />
+    </root>
+  </artifact>
+</component>

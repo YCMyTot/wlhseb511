@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wlhse.dao.ProblemSourceDao">
+    <resultMap id="ProblemSourceMap" type="com.wlhse.entity.ProblemSourcePojo">
+        <id column="ProblemSource_ID" jdbcType="INTEGER" property="problemSourceID"/>
+        <result column="ProblemSourceCode" jdbcType="VARCHAR" property="problemSourceCode"/>
+        <result column="ProblemSourceName" jdbcType="VARCHAR" property="problemSourceName"/>
+    </resultMap>
+    <sql id="judgeCodeName">
+        <if test="problemSourceCode != null and problemSourceCode != ''">
+            AND ProblemSourceCode = #{problemSourceCode}
+        </if>
+        <if test="problemSourceName != null and problemSourceName != ''">
+            AND ProblemSourceName = #{problemSourceName}
+        </if>
+    </sql>
+    <select id="queryProblemSource" resultMap="ProblemSourceMap">
+        select * from problemsource
+    </select>
+    <update id="updateProblemSource" parameterType="com.wlhse.entity.ProblemSourcePojo">
+        update problemsource
+        <set>
+            <if test="problemSourceCode != null">ProblemSourceCode=#{problemSourceCode},</if>
+            <if test="problemSourceName != null">ProblemSourceName=#{problemSourceName}</if>
+        </set>
+        where ProblemSource_ID=#{problemSourceID}
+    </update>
+    <delete id="deleteProblemSource" parameterType="com.wlhse.entity.ProblemSourcePojo">
+        delete from problemsource
+        <where>
+            ProblemSource_ID=#{problemSourceID}
+        </where>
+    </delete>
+    <insert id="insertProblemSource" parameterType="com.wlhse.entity.ProblemSourcePojo">
+        insert into problemsource (ProblemSourceCode, ProblemSourceName) values
+        (#{problemSourceCode},#{problemSourceName})
+    </insert>
+
+    <insert id="insertManyProblemSource">
+        insert into problemsource (ProblemSourceCode, ProblemSourceName) values
+        <foreach collection="list" item="obj" separator=",">
+            (#{obj.problemSourceCode},#{obj.problemSourceName})
+        </foreach>
+    </insert>
+
+    <select id="queryProblemSourceByCondition" resultMap="ProblemSourceMap">
+        select * from problemsource
+        <where>
+            <include refid="judgeCodeName"/>
+        </where>
+
+    </select>
+
+    <select id="queryProblemSourceByVagueCondition" parameterType="string" resultMap="ProblemSourceMap">
+        <bind name="pattern" value="'%' + keyword + '%'" />
+        SELECT
+        *
+        FROM
+        problemsource
+        WHERE
+        ProblemSourceCode LIKE #{pattern}
+        OR
+        ProblemSourceName LIKE #{pattern}
+    </select>
+</mapper>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wlhse.dao.UserPojoDao">
+    <resultMap id="BaseResultMap" type="com.wlhse.entity.UserPojo">
+        <id column="id" jdbcType="INTEGER" property="id"/>
+        <result column="username" jdbcType="VARCHAR" property="username"/>
+        <result column="psw" jdbcType="VARCHAR" property="psw"/>
+    </resultMap>
+    <select id="getAllUser" resultMap="BaseResultMap">
+        select * from user1
+    </select>
+    <select id="getUserById" resultMap="BaseResultMap">
+        select * from user1 where id = #{id}
+    </select>
+    <insert id="insertUser" parameterType="com.wlhse.entity.UserPojo">
+        insert into user1 (username, psw) values (#{username},#{psw})
+    </insert>
+    <delete id="deletUser" parameterType="com.wlhse.entity.UserPojo">
+        delete from user1 where id = #{id}
+    </delete>
+    <update id="updateUser" parameterType="com.wlhse.entity.UserPojo">
+        update user1
+        <set>
+            <if test="username != null">username=#{username},</if>
+            <if test="psw != null">psw=#{psw}</if>
+        </set>
+        <where>
+            id = #{id}
+        </where>
+    </update>
+    <select id="getTestDto" resultType="com.wlhse.dto.TestDto2">
+        select
+        p1.ProblemSourceCode,
+        p1.ProblemSourceName,
+        t1.test1,
+        t1.test2,
+        t1.test3
+        from problemsource p1,testpro t1
+        <where>
+            t1.proid=p1.ProblemSource_ID
+            and p1.ProblemSourceName=#{problemSourceName}
+            and t1.test1=#{test1}
+        </where>
+
+    </select>
+</mapper>

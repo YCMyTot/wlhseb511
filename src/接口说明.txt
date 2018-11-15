@@ -1,0 +1,50 @@
+http://154.8.193.93:8080/wlhse/UserController/TestUser  获取所有用户（get请求）（未连接数据库）
+
+已连接数据库的接口
+http://154.8.193.93:8080/wlhse/UserController/User 获取所有用户（GET请求）
+
+http://154.8.193.93:8080/wlhse/UserController/User/{id} 根据id获取用户（GET请求）
+
+http://154.8.193.93:8080/wlhse/UserController/User 新增一个用户（POST请求）
+示例json请求格式：
+{"username":"userTest33","psw":"123321"}
+返回结果json
+{
+"state": 200,
+"stateName": "添加成功"
+}
+{
+"state": 300,
+"stateName": "添加失败"
+}
+
+http://154.8.193.93:8080/wlhse/UserController/User 删除一个用户（DELETE请求）
+示例json请求格式：
+{"id":3}
+返回结果json
+{
+"state": 200,
+"stateName": "删除成功"
+}
+{
+"state": 400,"stateName": "删除失败"
+}
+
+http://154.8.193.93:8080/wlhse/UserController/User 更新一个用户（PUT请求）
+示例json请求格式：
+{
+"id": 2,
+"username": "testUser1",
+ "psw": "1231"
+}
+返回结果json
+{
+"state": 200,
+"stateName": "更新成功"
+}
+{
+"state": 500,
+"stateName": "更新失败"
+}
+
+

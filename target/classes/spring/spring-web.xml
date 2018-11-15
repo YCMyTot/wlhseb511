@@ -1,0 +1,38 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="
+		http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+		http://www.springframework.org/schema/mvc
+		http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+    <!--1.开启springmvc注解模式-->
+    <mvc:annotation-driven/>
+    <!--2.servlet-mapping 映射路径"/"
+    （1）.加载静态资源的处理。js.css
+    （2）.允许使用“/”做整体映射 ant风格 add/#{user}/#{psw}-->
+    <!--3.配置jsp的显示-->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <!--使用jstl语法-->
+        <property name="viewClass" value="org.springframework.web.servlet.view.JstlView"></property>
+        <property name="prefix" value="/WEB-INF/jsp/"/>
+        <property name="suffix" value=".jsp"/>
+        <!--经过上面的配置，就不可以再通过地址栏输入ip:端口号/xxx.jsp来访问页面了。想访问jsp页面还需要添加controller。-->
+    </bean>
+    <!--4.扫描和web相关的项目bean-->
+    <context:component-scan base-package="com.wlhse.controller"/>
+    <!--让Spring框架能够捕获所有URL的请求，同时又将静态资源的请求转由Web容器处理-->
+    <mvc:default-servlet-handler/>
+
+    <mvc:resources mapping="/static/**" location="/WEB-INF/static/" />
+
+    <!-- <mvc:resources mapping="/Pictures/**" location="/WEB-INF/Pictures/"/>-->
+    <!--文件上传解析器,名字不允许更改 bytes-->
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <property name="maxUploadSize" value="102400"/>
+        <property name="defaultEncoding"  value="UTF-8"/>
+    </bean>
+</beans>
