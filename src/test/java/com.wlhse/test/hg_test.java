@@ -9,6 +9,7 @@ import com.wlhse.dto.TestDto2;
 import com.wlhse.entity.ProblemSourcePojo;
 import com.wlhse.entity.UserPojo;
 import com.wlhse.service.UserService;
+import com.wlhse.util.JedisUtil;
 import com.wlhse.util.MD5Util;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -199,6 +200,13 @@ public class hg_test {
         testDto.setTest1("222");
         List<TestDto2> list=dao.getTestDto(testDto);
         System.out.println(list);
+    }
+
+    @Test
+    public void JedisUtil_test() {
+        JedisUtil jedisUtil=new JedisUtil();
+//        jedisUtil.putJedis();
+        jedisUtil.getJedis();
     }
 
 }

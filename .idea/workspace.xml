@@ -6,7 +6,16 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5107d906-4f4e-4ccc-91ee-952490a93391" name="Default Changelist" comment="" />
+    <list default="true" id="5107d906-4f4e-4ccc-91ee-952490a93391" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlhse/util/JedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-redis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com.wlhse/test/hg_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com.wlhse/test/hg_test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/wlhse/test/hg_test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/wlhse/test/hg_test.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,79 +42,103 @@
     <session id="501233602">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="24" />
+          <entry key="project.closed" value="27" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="5" />
-          <entry key="project.open.time.7" value="3" />
+          <entry key="project.open.time.6" value="6" />
+          <entry key="project.open.time.7" value="4" />
           <entry key="project.open.time.8" value="7" />
-          <entry key="project.opened" value="25" />
+          <entry key="project.opened" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="a" value="5" />
-          <entry key="class" value="1" />
-          <entry key="java" value="94" />
+          <entry key="class" value="2" />
+          <entry key="java" value="99" />
           <entry key="js" value="1" />
-          <entry key="properties" value="4" />
+          <entry key="properties" value="6" />
           <entry key="readme" value="6" />
-          <entry key="xml" value="47" />
+          <entry key="txt" value="5" />
+          <entry key="xml" value="54" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="94" />
+          <entry key="CLASS" value="2" />
+          <entry key="JAVA" value="99" />
           <entry key="JavaScript" value="1" />
-          <entry key="PLAIN_TEXT" value="11" />
-          <entry key="Properties" value="4" />
-          <entry key="XML" value="47" />
+          <entry key="PLAIN_TEXT" value="16" />
+          <entry key="Properties" value="6" />
+          <entry key="XML" value="54" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
           <entry key="ft" value="55" />
-          <entry key="java" value="3049" />
-          <entry key="properties" value="9" />
+          <entry key="java" value="3391" />
+          <entry key="properties" value="34" />
           <entry key="readme" value="54" />
-          <entry key="xml" value="549" />
+          <entry key="txt" value="40" />
+          <entry key="xml" value="614" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3049" />
-          <entry key="PLAIN_TEXT" value="58" />
-          <entry key="Properties" value="9" />
+          <entry key="JAVA" value="3391" />
+          <entry key="PLAIN_TEXT" value="98" />
+          <entry key="Properties" value="34" />
           <entry key="VTL" value="55" />
-          <entry key="XML" value="549" />
+          <entry key="XML" value="614" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com.wlhse/test/test.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-redis.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="225">
+              <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com.wlhse/test/test2.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="105">
+              <caret line="220" column="21" selection-start-line="220" selection-start-column="21" selection-end-line="220" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com.wlhse/test/hg_test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="208" column="29" selection-start-line="208" selection-start-column="29" selection-end-line="208" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="17" column="63" lean-forward="true" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
+              <folding>
+                <element signature="e#713#729#0" expanded="true" />
+                <element signature="e#771#784#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -130,10 +163,11 @@
       <find>RollingFileAppender</find>
       <find>stdout</find>
       <find>timeBasedFileNamingAndTriggeringPolicy</find>
+      <find>redis.pool.maxTotal</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/wlhse" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -158,7 +192,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wlhse/util/MD5Util.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wlhse/entity/ProblemFactorPojo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wlhse/entity/ProblemSourcePojo.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/wlhse/dao/ProblemSourceDao.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/ProblemSourceMapper.xml" />
@@ -166,10 +199,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wlhse/dto/testDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wlhse/dao/UserPojoDao.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/UserPojoMapper.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com.wlhse/test/hg_test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wlhse/dto/TestDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wlhse/dto/TestDto2.java" />
         <option value="$PROJECT_DIR$/src/test/java/com.wlhse/test/testshangcuan123.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com.wlhse/test/hg_test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wlhse/util/JedisUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/redis.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/spring-redis.xml" />
       </list>
     </option>
   </component>
@@ -228,6 +265,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -245,6 +283,54 @@
               <item name="wlhse" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wlhse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wlhse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wlhse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wlhse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wlhse" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wlhse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wlhse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wlhse" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wlhse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wlhse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wlhse" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wlhse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wlhse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wlhse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wlhse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wlhse" type="b2602c69:ProjectViewProjectNode" />
@@ -271,21 +357,20 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542250123897" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542266789576" />
     <property name="last_opened_file_path" value="C:/code" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3413793" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -312,7 +397,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.hg_test">
+  <component name="RunManager" selected="JUnit.hg_test.JedisUtil_test">
     <configuration name="hg_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="wlhse" />
       <extension name="coverage">
@@ -323,6 +408,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.wlhse.test" />
       <option name="MAIN_CLASS_NAME" value="com.wlhse.test.hg_test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hg_test.JedisUtil_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wlhse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wlhse.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wlhse.test" />
+      <option name="MAIN_CLASS_NAME" value="com.wlhse.test.hg_test" />
+      <option name="METHOD_NAME" value="JedisUtil_test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -338,22 +439,6 @@
       <option name="PACKAGE_NAME" value="com.wlhse.test" />
       <option name="MAIN_CLASS_NAME" value="com.wlhse.test.hg_test" />
       <option name="METHOD_NAME" value="queryProblemSourceByCondition_test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="hg_test.queryProblemSourceByVagueCondition_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="wlhse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wlhse.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.wlhse.test" />
-      <option name="MAIN_CLASS_NAME" value="com.wlhse.test.hg_test" />
-      <option name="METHOD_NAME" value="queryProblemSourceByVagueCondition_test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -465,18 +550,18 @@
     <list>
       <item itemvalue="Tomcat Server.Unnamed" />
       <item itemvalue="JUnit.hg_test.queryProblemSourceByCondition_test" />
-      <item itemvalue="JUnit.hg_test.queryProblemSourceByVagueCondition_test" />
       <item itemvalue="JUnit.hg_test" />
       <item itemvalue="JUnit.hg_test.updateProblemSource_test" />
       <item itemvalue="JUnit.hg_test.test_test" />
+      <item itemvalue="JUnit.hg_test.JedisUtil_test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.hg_test.JedisUtil_test" />
         <item itemvalue="JUnit.hg_test" />
         <item itemvalue="JUnit.hg_test.test_test" />
         <item itemvalue="JUnit.hg_test.updateProblemSource_test" />
         <item itemvalue="JUnit.hg_test.queryProblemSourceByCondition_test" />
-        <item itemvalue="JUnit.hg_test.queryProblemSourceByVagueCondition_test" />
       </list>
     </recent_temporary>
   </component>
@@ -514,49 +599,60 @@
       <workItem from="1542247015078" duration="1214000" />
       <workItem from="1542248295489" duration="443000" />
       <workItem from="1542248779638" duration="936000" />
-      <workItem from="1542249816766" duration="304000" />
+      <workItem from="1542249816766" duration="548000" />
+      <workItem from="1542250517932" duration="936000" />
+      <workItem from="1542251807220" duration="1785000" />
+      <workItem from="1542264726526" duration="2339000" />
     </task>
+    <task id="LOCAL-00001" summary="新增一个test3&#10;同时新增了pagehelper&#10;很好使用">
+      <created>1542250830862</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1542250830862</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="hg_test_updateProblemSource_test - 2018.11.13 at 18h 31m 36s.xml">
-      <configuration name="hg_test.updateProblemSource_test" configurationId="JUnit" />
+    <history-entry file="hg_test_JedisUtil_test - 2018.11.15 at 11h 34m 33s.xml">
+      <configuration name="hg_test.JedisUtil_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="hg_test_updateProblemSource_test - 2018.11.13 at 18h 31m 56s.xml">
-      <configuration name="hg_test.updateProblemSource_test" configurationId="JUnit" />
+    <history-entry file="hg_test_JedisUtil_test - 2018.11.15 at 11h 35m 39s.xml">
+      <configuration name="hg_test.JedisUtil_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="hg_test_test_test - 2018.11.14 at 17h 30m 05s.xml">
-      <configuration name="hg_test.test_test" configurationId="JUnit" />
+    <history-entry file="hg_test_JedisUtil_test - 2018.11.15 at 11h 39m 18s.xml">
+      <configuration name="hg_test.JedisUtil_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="hg_test_test_test - 2018.11.14 at 17h 30m 35s.xml">
-      <configuration name="hg_test.test_test" configurationId="JUnit" />
+    <history-entry file="hg_test_JedisUtil_test - 2018.11.15 at 15h 07m 33s.xml">
+      <configuration name="hg_test.JedisUtil_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="hg_test_test_test - 2018.11.14 at 17h 31m 09s.xml">
-      <configuration name="hg_test.test_test" configurationId="JUnit" />
+    <history-entry file="hg_test_JedisUtil_test - 2018.11.15 at 15h 13m 35s.xml">
+      <configuration name="hg_test.JedisUtil_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="hg_test_test_test - 2018.11.14 at 17h 31m 12s.xml">
-      <configuration name="hg_test.test_test" configurationId="JUnit" />
+    <history-entry file="hg_test_JedisUtil_test - 2018.11.15 at 15h 21m 28s.xml">
+      <configuration name="hg_test.JedisUtil_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="hg_test_test_test - 2018.11.14 at 17h 31m 52s.xml">
-      <configuration name="hg_test.test_test" configurationId="JUnit" />
+    <history-entry file="hg_test_JedisUtil_test - 2018.11.15 at 15h 22m 03s.xml">
+      <configuration name="hg_test.JedisUtil_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="hg_test_test_test - 2018.11.14 at 17h 37m 02s.xml">
-      <configuration name="hg_test.test_test" configurationId="JUnit" />
+    <history-entry file="hg_test_JedisUtil_test - 2018.11.15 at 15h 23m 27s.xml">
+      <configuration name="hg_test.JedisUtil_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="hg_test_test_test - 2018.11.14 at 17h 37m 37s.xml">
-      <configuration name="hg_test.test_test" configurationId="JUnit" />
+    <history-entry file="hg_test_JedisUtil_test - 2018.11.15 at 15h 25m 15s.xml">
+      <configuration name="hg_test.JedisUtil_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="hg_test - 2018.11.15 at 10h 32m 46s.xml">
-      <configuration name="hg_test" configurationId="JUnit" />
+    <history-entry file="hg_test_JedisUtil_test - 2018.11.15 at 15h 25m 55s.xml">
+      <configuration name="hg_test.JedisUtil_test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55702000" />
+    <option name="totallyTimeSpent" value="61006000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18743344" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2428115" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -566,13 +662,13 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32972974" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3545946" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946752" visible="true" weight="0.23027027" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.44108108" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5005325" side_tool="true" weight="0.35675675" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.39027026" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32972974" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
@@ -588,6 +684,7 @@
       <window_info anchor="right" id="Database" order="6" weight="0.32960597" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="9" side_tool="true" weight="0.32960597" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -601,17 +698,14 @@
       <path value="$PROJECT_DIR$" />
       <path value="$PROJECT_DIR$/wlhse" />
     </ignored-roots>
+    <MESSAGE value="新增一个test3&#10;同时新增了pagehelper&#10;很好使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增一个test3&#10;同时新增了pagehelper&#10;很好使用" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/readme" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.wlhse/service/a" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/a" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wlhse/a" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wlhse/service/a" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/jquery.js" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-web.xml" />
@@ -633,7 +727,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wlhse/util/eee.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wlhse/util/aaaa.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wlhse/service/impl/UserServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wlhse/service/UserService.java" />
     <entry file="jar://C:/code/java/jdk1.8.0_181/src.zip!/java/security/interfaces/RSAPublicKey.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="347">
@@ -655,38 +748,106 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wlhse/dao/ProblemSourceDao.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wlhse/entity/ProblemSourcePojo.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wlhse/entity/ProblemFactorPojo.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wlhse/dao/UserPojoDao.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserPojoMapper.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wlhse/dto/TestDto.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wlhse/dto/TestDto2.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com.wlhse/test/hg_test.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com.wlhse/test/testshangcuan123.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com.wlhse/test/testshangcuan.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com.wlhse/test/test2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1215">
-          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        <state relative-caret-position="243">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com.wlhse/test/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/状态码.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/接口说明.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/命名规范.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/公钥私匙.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com.wlhse/test/test3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/Jedis.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="111" column="21" selection-start-line="111" selection-start-column="18" selection-end-line="111" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wlhse/util/JedisUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wlhse/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="208" column="36" selection-start-line="208" selection-start-column="36" selection-end-line="208" selection-end-column="36" />
+        <state relative-caret-position="105">
+          <caret line="220" column="21" selection-start-line="220" selection-start-column="21" selection-end-line="220" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com.wlhse/test/testshangcuan123.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com.wlhse/test/testshangcuan.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com.wlhse/test/test.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/redis.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com.wlhse/test/test2.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com.wlhse/test/hg_test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="396">
+          <caret line="208" column="29" selection-start-line="208" selection-start-column="29" selection-end-line="208" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="63" lean-forward="true" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
+          <folding>
+            <element signature="e#713#729#0" expanded="true" />
+            <element signature="e#771#784#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-redis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
         </state>
       </provider>
     </entry>
